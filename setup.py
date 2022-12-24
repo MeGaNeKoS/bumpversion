@@ -1,16 +1,8 @@
-
 from setuptools import setup
 
+__version__ = "0.0.0"
+
 setup(
-    name='hello-world',
-    version='0.1.0',
-    description='A Python package that says "Hello, world!"',
-    author='Your Name',
-    author_email='your@email.com',
-    packages=['hello_world'],
-    entry_points={
-        'console_scripts': [
-            'hello-world=hello_world.__main__:main'
-        ]
-    }
+    name="my-package",
+    version=__version__,
 )
